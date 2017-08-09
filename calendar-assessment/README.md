@@ -13,5 +13,5 @@
 	When a day is clicked the full date (day of the week, day of the month, English suffix and month) should be displayed at the top of the page.
 ```
 
-## Image of solutions: 
-[<img alt="JScalendar" src="http://i.imgur.com/urKJDIH.png" width="400">]
+## Image of solution: 
+<img alt="JScalendar" src="http://i.imgur.com/urKJDIH.png" width="400">
