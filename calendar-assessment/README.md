@@ -14,5 +14,4 @@
 ```
 
 ## Image of solutions: 
-
-[Imgur](http://i.imgur.com/urKJDIH.png)
+[<img alt="JScalendar" src="http://i.imgur.com/urKJDIH.png" width="400">]
