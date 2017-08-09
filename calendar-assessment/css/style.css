@@ -30,6 +30,19 @@ body
     
 }
 
+.calendar-top-panel #weekday 
+{
+
+}
+.calendar-top-panel #thisMonth 
+{
+
+}
+.calendar-top-panel #date 
+{
+
+}
+
 .calendar-bottom-panel 
 {
     background-color: #ffffff;
@@ -46,16 +59,21 @@ body
     font-size: 14px;
     font-weight: bold;
 }
-
 /**
  * Button styling
  */
-
-#p {
-  
+#previous:hover,
+#next:hover {
+    cursor: pointer;
+	color: rgb(66, 133, 244);
 }
-#n {
-
+#previous {
+    float: left;
+	color: #0355de;
+}
+#next {
+    float: right;
+	color: #0355de;
 }
 
 /**
