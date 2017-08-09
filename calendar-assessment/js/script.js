@@ -1,7 +1,7 @@
 /*
   Description: Style guide for calendar.html.
-  Version: 5.0.0
-  Last update: 2017/08/09
+  Version: 5.0.1
+  Last update: 2017/08/10
   Author: Akash Payne <akashpayne@gmail.com>
  
   Summary:
