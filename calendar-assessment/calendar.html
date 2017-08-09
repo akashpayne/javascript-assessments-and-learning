@@ -1,6 +1,6 @@
 <!--
 Description: HTML file for calendar.html.
-  Version: 4.0.0
+  Version: 5.0.0
   Last update: 2017/08/09
   Author: Akash Payne <akashpayne@gmail.com>
  
@@ -13,29 +13,29 @@ Description: HTML file for calendar.html.
 	<head>
 	   <meta charset="UTF-8" >
 	   <title>Calendar</title>
-
-	   <link rel="stylesheet" href="style.css">
-
+	   <!-- custom stylesheet style.css -->
+	   <link rel="stylesheet" href="css/style.css">
+	   <!-- stylesheet used for calendar icons -->
 	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 	   <div class="calendar" id="cal">
-
+		  <!-- calendar top panel -->
 		  <div class="calendar-top-panel">
 			 <div id="weekday"></div>
 			 <div id="thisMonth"></div>
 			 <div id="date"></div>
 		  </div>
-
+		  <!-- calendar bottom panel -->
 		  <div class="calendar-bottom-panel">
 			 <div class="header">
 				<span class="fa fa-arrow-circle-o-left" id="previous"></span>
 				<span id="month-year"></span>
 				<span class="fa fa-arrow-circle-o-right" id="next"></span>
 			 </div>
-
+			 <!-- calendar wrapper -->
 			 <div class="calendar-wrapper" id="">
-
+				<!-- days of the week with -->
 				<div class="days-of-week">
 				   <div>Sun</div>
 				   <div>Mon</div>
@@ -45,12 +45,12 @@ Description: HTML file for calendar.html.
 				   <div>Fri</div>
 				   <div>Sat</div>
 				</div>
-
+				<!-- calendar dates frame -->
 				<table class="" id="calendar-frame"></table>
 			 </div>
 		  </div>
 	   </div>
-	   <script src="script.js"></script>
+	   <script src="js/script.js"></script>
 	</body>
 
 </html>
